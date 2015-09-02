@@ -17,8 +17,8 @@ class GotoTraining extends OAuth{
     }
     
     /**
- *Arguement List for goto CreateTraining service
- *  [name] => Representational State Transfer 101
+    Arguement List for goto CreateTraining service
+    [name] => Representational State Transfer 101
     [description] => The REST-ful way to APIs.
     [timeZone] => America/Los_Angeles
     [times] => Array
@@ -49,7 +49,7 @@ class GotoTraining extends OAuth{
             [1] => 38712
             [2] => 9876466
         ) 
- */
+    */
     public function createTraining($name, $desc, $times){
 
         $registrationSettings["disableWebRegistration"] = "false";
