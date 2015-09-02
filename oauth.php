@@ -1,3 +1,4 @@
+<?php
 class OAuth{
 
     public $autologin_url;
@@ -51,3 +52,4 @@ class OAuth{
 
    }
 }
+?>
