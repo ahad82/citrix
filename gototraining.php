@@ -1,3 +1,4 @@
+<?php
 define ("API_KEY", "");
 define ("REDIRECT_URL","");
 define ("AUTH_AUTOLOGIN_URL","https://developer.citrixonline.com/oauth/g2t/authorize.php");
@@ -93,3 +94,4 @@ class GotoTraining extends OAuth{
         return 0;
     }
 }
+?>
