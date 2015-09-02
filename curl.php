@@ -1,3 +1,4 @@
+<?php
 class Curl{
 
     public $result;
@@ -29,3 +30,4 @@ class Curl{
 
     }
 }
+?>
